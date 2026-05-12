@@ -2,7 +2,7 @@
 // This file handles all API calls related to dashboard/statistics
 // Maps to DashboardController.java in the backend
 
-const BASE_URL = 'http://localhost:8081';
+const BASE_URL = 'https://teamtask-manager-6vlw.onrender.com';
 
 function getHeaders() {
   const token = localStorage.getItem('token');

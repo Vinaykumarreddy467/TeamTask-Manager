@@ -8,7 +8,7 @@
 //      OR change controller mappings from /api/auth to /auth, /api/projects to /projects, etc.
 // This frontend assumes context-path is REMOVED (controllers keep their /api prefix).
 
-const BASE_URL = 'http://localhost:8081';
+const BASE_URL = 'https://teamtask-manager-6vlw.onrender.com';
 
 // Helper to get the token from localStorage
 function getToken() {
